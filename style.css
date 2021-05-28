@@ -1,0 +1,100 @@
+/* Your CSS must:
+Use margin and padding to space your elements in a visually pleasing way.
+Use at least one of each of the following types of selectors:
+element,
+class,
+id.
+Follow these rules:
+Avoid adding HTML elements in order to achieve a specific visual effect.
+Use document-level and inline styles sparingly, and only when absolutely necessary.
+Be creative! Make your page look great, and don’t just settle for checking off the items above. 
+Have a look at CSS Zen Garden for inspiration 
+(use your browser’s developer tools to see how those pages’ styles are built) 
+font-family: 'Odibee Sans', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Zhi Mang Xing', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 200px;
+    font-family:'Zhi Mang Xing', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/8f/fa/0f/8ffa0fbdf24942c39d45d62cb5ce6438.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background-color: rgba(218, 218, 218, 0.863);
+    border-radius: 20px;
+    max-width: 500px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.circle {
+    height:700px;
+    width:700px;
+    background:rgba(121, 0, 0, 0.746);
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: -25%;
+    margin-right: 50px;
+}
+
+.imagebanner {
+    position: relative;
+    z-index: 2;
+    margin-top: 50%;
+}
+
+.article-img {
+    border-radius: 20px;
+    width: auto;
+    max-height: 300px;
+}
+
+.imgs-banner {
+    border-radius: 20px;
+    width: auto;
+    max-height: 250px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.main-img {
+    border-radius: 20px;
+    width: 700px;
+    max-height: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-right: 10px;
+}
